@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background: url(../images/bg.png) no-repeat center/cover;
+    position: relative;   
+    width: 100%;
+    height: 100vh;
+}
+p{
+    font-size: 16px;
+}
+img{
+    position: absolute;
+}
+
+.grass{
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+.juniper1{
+    left: 0;
+    bottom: 100px;
+}
+
+
+.juniper2{
+    left: 5%;
+    bottom: 100px;
+}
+
+
+.juniper3{
+    left: 13%;
+    bottom: 100px;
+}
+
+.juniper4{
+    right: 5%;
+    bottom: 100px;
+}
+.juniper5{
+    right: 0%;
+    bottom: 100px;
+}
+
+
+
+.deer{
+    bottom: 100px;
+    left: 35%;
+}
+.mountain{
+    bottom: -40%;
+    left: 50%;
+    transform: translateX(-56%);
+}
+.sun{
+    left: 32%;
+    top: 180px;
+}
+.bird1{
+    left: 45%;
+    top: 100px;
+}
+.bird2{
+    top: 180px;
+    left: 42%;
+}
+
+.bird3{
+    top: 150px;
+    left: 33%;
+}
+
+
+main{
+    background-color: aqua;
+    z-index: 2;
+    position: relative;
+}
